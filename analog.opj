@@ -1,6 +1,5 @@
 (ExpressProject "analog"
   (ProjectVersion "19981106")
-  (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File "C:\Cadence\SPB_16.6\tools\capture\LIBRARY\Amplifier.olb"
@@ -99,12 +98,13 @@
       (Path "Design Resources" ".\analog.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "c:\myworks\emmiter_new\hard\circuit\library\emmiter.olb"))
+         "c:\myworks\emmiter_new\hard\circuit\library\emmiter.olb")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 336"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 336"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")

@@ -20,10 +20,58 @@
     (File ".\analog.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (ADP3335
+      (FullPartName "ADP3335.Normal")
+      (LibraryName "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\LIBRARY\EMMITER.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INA163
+      (FullPartName "INA163.Normal")
+      (LibraryName "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\LIBRARY\EMMITER.OLB")
+      (DeviceIndex "0"))
+    ("TRNSFMR 456DS-1012"
+      (FullPartName "TRNSFMR 456DS-1012.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("TRNSFMR 29873"
+      (FullPartName "TRNSFMR 29873.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AD8599
+      (FullPartName "AD8599.Normal")
+      (LibraryName "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\LIBRARY\EMMITER.OLB")
+      (DeviceIndex "0"))
     (TPS7A3001
       (FullPartName "TPS7A3001.Normal")
       (LibraryName "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\LIBRARY\EMMITER.OLB")
@@ -78,10 +126,6 @@
     ("GND_FIELD SIGNAL"
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
     ("INDUCTOR FERRITE"
       (FullPartName "INDUCTOR FERRITE.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -96,10 +140,7 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\analog.dsn")
       (Path "Design Resources" ".\analog.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "c:\myworks\emmiter_new\hard\circuit\library\emmiter.olb")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\analog.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -109,9 +150,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1165 50 424")
-        (Scroll "-99 0")
-        (Zoom "43")
+        (Placement "44 2 3 -1 -1 -8 -30 50 1165 50 424")
+        (Scroll "1649 0")
+        (Zoom "152")
         (Occurrence "/"))
       (Path "C:\MYWORKS\NEW_MAD\HARD\ANALOG\ANALOG.DSN")
       (Schematic "SCHEMATIC1")

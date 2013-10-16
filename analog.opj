@@ -66,7 +66,9 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    ("Allegro Netlist Input Board File"
+       "C:\MyWorks\new_mad\hard\analog\board\analog.brd"))
   (Folder "Outputs"
     (File ".\analog.bom"
       (Type "Report"))
@@ -181,19 +183,20 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\analog.dsn")
       (Path "Design Resources" ".\analog.dsn" "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\analog.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 336"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 336"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 1052 0 374")
-        (Scroll "-172 0")
-        (Zoom "37")
+        (Placement "44 0 1 -1 -1 -8 -30 0 1052 0 374")
+        (Scroll "847 1545")
+        (Zoom "148")
         (Occurrence "/"))
       (Path "C:\MYWORKS\NEW_MAD\HARD\ANALOG\ANALOG.DSN")
       (Schematic "SCHEMATIC1")
